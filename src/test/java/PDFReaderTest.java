@@ -25,7 +25,7 @@ public class PDFReaderTest {
 //		ChromeOptions options = new ChromeOptions();
 //		options.addArguments("--remote-allow-origins=*");
 //		driver = new ChromeDriver(options); 
-		WebDriver driver = new EdgeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("D:/Documents/Form16_022862_FY 2022-23.pdf");
 		
 		URL url = new URL(driver.getCurrentUrl());
